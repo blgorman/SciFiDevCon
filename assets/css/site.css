@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'StarTrek BT';
+    src: url('fonts/hinted-StarTrekBT-Regular.eot');
+    src: url('fonts/hinted-StarTrekBT-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hinted-StarTrekBT-Regular.woff2') format('woff2'),
+        url('fonts/hinted-StarTrekBT-Regular.woff') format('woff'),
+        url('fonts/hinted-StarTrekBT-Regular.svg#StarTrekBT-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FederationDS9Title';
+    src: url('fonts/hinted-FederationDS9Title.woff2') format('woff2'),
+        url('fonts/hinted-FederationDS9Title.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Final Frontier';
+    src: url('fonts/hinted-FinalFrontier.woff2') format('woff2'),
+        url('fonts/hinted-FinalFrontier.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Federation';
+    src: url('fonts/hinted-FederationTNGTitle.woff2') format('woff2'),
+        url('fonts/hinted-FederationTNGTitle.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TNG Monitors';
+    src: url('fonts/hinted-TrekTNGMonitors.woff2') format('woff2'),
+        url('fonts/hinted-TrekTNGMonitors.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.trek-font {
+    font-family: 'StarTrek BT' !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ds9Title-font {
+    font-family: 'FederationDS9Title' !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.final-frontier-font {
+    font-family: 'Final Frontier' !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.federation-font {
+    font-family: 'Federation' !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tng-monitors-font {
+    font-family: 'TNG Monitors' !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo-image {
+    max-width: 100px;
+
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>SciFiDevCon - A virtual developer conference with a SciFi/Fantasy flair</title>
+	<title>SciFiDevCon - A virtual developer conference with a SciFi/Fantasy comic-con flair</title>
 	
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -19,24 +19,24 @@
 
 	<!-- Theme CSS -->  
 	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+	<link id="site" rel="stylesheet" href="assets/css/site.css">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164629434-1"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-164629434-1');
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-164629434-1');
 	</script>
 </head> 
 
-<body>    
+<body class="final-frontier-font">    
 	<header id="header" class="header fixed-top">	    
 		<div class="branding">
 			<div class="container-fluid">
 				<nav class="main-nav navbar navbar-expand-lg">
-					<div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon" src="assets/images/logo-white.svg" alt="logo"></a></div>    
+					<div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-image" src="assets/images/logos/SciFiDevCon.jpg" alt="logo"></a></div>    
 					
 					<div class="navbar-btn order-lg-2">
 						<!-- <a class="btn btn-secondary" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank">Tickets</a> -->
@@ -49,10 +49,10 @@
 					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end mr-lg-3">
 						<ul class="nav navbar-nav">
 							
-							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li>                                              
-							<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Schedule</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#tickets-section">Tickets</a></li>
+							<li class="final-frontier-font nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li>                                              
+							<li class="final-frontier-font nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers</a></li>
+							<li class="final-frontier-font nav-item"><a class="nav-link scrollto" href="#schedule-section">Schedule</a></li>
+							<li class="final-frontier-font nav-item"><a class="nav-link scrollto" href="#tickets-section">Tickets</a></li>
 							<!-- <li class="nav-item"><a class="nav-link scrollto" href="#venue-section">Venue</a></li> -->
 							<!-- <li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Sponsors</a></li> -->
 						</ul><!--//nav-->
@@ -77,10 +77,10 @@
 		</div>
 		<div class="hero-block-mask"></div>
 		<div class="container">
-			<div class="hero-text-block">
-				<h1 class="hero-heading mb-2">SciFiDevCon 2020</h1>
-				<div class="hero-meta mb-3"><i class="far fa-calendar-alt mr-2"></i>29-31 July <i class="fas fa-map-marker-alt mx-2"></i>Virtual</div>
-				<div class="hero-intro mb-4">Who doesn't love development?  Who doesn't love SciFi? <br /> Who thinks combinations of the two are going to be even better?</div>
+			<div class="hero-text-block ">
+				<h1 class="hero-heading mb-2 trek-font">SciFiDevCon 2020</h1>
+				<div class="hero-meta mb-3"><i class="far fa-calendar-alt mr-2"></i><span class="ds9Title-font">29-31 July </span><i class="fas fa-map-marker-alt mx-2"></i><span class="ds9Title-font">Virtual</span></div>
+				<div class="hero-intro mb-4 ds9Title-font">Who doesn't love development?  Who doesn't love SciFi? <br /> Who thinks combinations of the two are going to be even better?</div>
 				<!-- <div class="hero-cta"><a class="btn btn-primary btn-lg" 
 											href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" 
 											target="_blank">Get Tickets</a></div> -->
@@ -96,25 +96,25 @@
 			<div class="row">
 				<div class="col-6 col-md-3">
 					<div class="item">
-						<div class="number">Unlimited</div>
+						<div class="number federation-font">Unlimited</div>
 						<div class="unit">Attendees</div>
 					</div><!--//item-->
 				</div><!--//col-->
 				<div class="col-6 col-md-3">
 					<div class="item">
-						<div class="number">3</div>
+						<div class="number federation-font">3</div>
 						<div class="unit">Days</div>
 					</div><!--//item-->
 				</div><!--//col-->
 				<div class="col-6 col-md-3">
 					<div class="item">
-						<div class="number">60+</div>
+						<div class="number federation-font">60+</div>
 						<div class="unit">Talks</div>
 					</div><!--//item-->
 				</div><!--//col-->
 				<div class="col-6 col-md-3">
 					<div class="item">
-						<div class="number">10+</div>
+						<div class="number federation-font">10+</div>
 						<div class="unit">Workshops</div>
 					</div><!--//item-->
 				</div><!--//col-->
@@ -124,16 +124,27 @@
 
 	<section id="about-section" class="about-section section theme-bg-light">
 		<div class="container">
-			<h3 class="section-heading text-center mb-3">About SciFiDevCon</h3>
-			<div class="section-intro single-col-max mx-auto mb-4">
-				We're reeling from the loss of many of our favorite in-person conferences.  We all know the best conferences are the ones that have the best after-session mingling and networking.  However, we still need to hear about what's going on in the dev community.  This conference is a gap-fill to satisfy our need to hear from others in the community and also give those who love speaking about what they know and have learned a chance to keep doing it (and doing it well).   In addition to solving our itch for a good tech conference, this conference is a chance to hear about things other developers are doing and learn new or better ways to improve your daily workflow.  
-				<br />
-				The main thing is that talks are going to be encouraged to be enhanced using science fiction characters, shows, and lore.  
-				<br />
-				In the end, it is my hope that we can have a great three days of workshops, talks, and sessions or panels that will give us all a chance to keep learning and growing while avoiding the concerns around travel, accommodation, and con-crud. 
+			<h3 class="section-heading text-center mb-3 federation-font">About SciFiDevCon</h3>
+			<div class="section-intro single-col-max mx-auto mb-4 final-frontier-font">
+				<p>
+					Who doesn't love development (or solving business problems)?  Who doesn't love SciFi/Fantasy/Comics?  Who thinks combinations of these things are going to be even better? If you answer ME - then this is the virtual-con for you!
+				</p><p>
+					Honestly, we're reeling from the loss of many of our favorite in-person conferences due to COVID-19.  We all know the best conferences are the ones that have the best after-session mingling and networking.  However, we still need to hear about what's going on in the developer community. 
+				</p><p>
+					This conference is a gap-fill to satisfy our need to hear from others in the community and also another chance to give those who love speaking about what they know and have learned a place to keep doing it (and doing it well), even in these unprecedented times.   
+				</p><p>
+					In addition to solving our itch for a good tech conference, this conference is a chance to hear about things other developers are doing and learn new or better ways to improve your daily workflow.  
+				</p><p>
+					The best parts about this conference will be that not only will we be talking tech, but we'll be encouraging all presenters to enhance talks with sci-fi/fantasy/comics/gaming, and anything else in what was traditionally called geek/nerd culture. 
+				</p><p>
+					We're also planning to put networking tools in place where people can talk network around tech and comic-con-like topics.   
+				</p><p>
+					<strong>TL/DR</strong>.  Stay home and avoid the con-crud.  Learn cool stuff from industry and thought leaders.  Embrace sci-fi/fantasy/culture in the process. Have a great 3-day conference to gap-fill and scratch our conference itch until we can get our favorite in-person events back.
+				</p>
+				
 			</div>
 			<div class="benefits-list text-center mb-3">
-				<h4 class="text-center mb-4">Why Join Us</h4>
+				<h4 class="text-center mb-4 federation-font">Why Join Us</h4>
 				<ul class="list-unstyled text-left d-inline-block">
 					<li><i class="fas fa-check-circle mr-2"></i>Industry leading speakers</li>
 					<li><i class="fas fa-check-circle mr-2"></i>Topics relevant to you</li>
@@ -145,7 +156,7 @@
 				</ul>
 			</div><!--//benefits-list-->
 			<div class="event-countdown text-center mb-3">		   
-				<h4 class="countdown-intro mb-2 text-center mb-3">Event Starts In:</h4>
+				<h4 class="countdown-intro mb-2 text-center mb-3 federation-font">Event Starts In:</h4>
 				<div id="countdown-box" class="countdown-box"></div>
 			</div><!--//event-countdown-->
 			<!-- TODO: Link to get tickets-->
@@ -157,14 +168,14 @@
 	
 	<section id="speakers-section" class="speakers-section section">
 		<div class="container">
-			<h3 class="section-heading text-center mb-3">Speakers</h3>
+			<h3 class="section-heading text-center mb-3 federation-font">Speakers</h3>
 			<div class="section-intro text-center single-col-max mx-auto mb-5">Speaker info coming soon...</div>
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-3 mb-4">
 					<div class="card rounded-0">
 						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img src="assets/images/speakers/speaker-1.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2">James Doe</h5>
+							<h5 class="card-title mb-2 tng-monitors-font">James Doe</h5>
 							<div class="card-text mb-3">
 								<div class="meta">Senior Software Developer</div>
 								<div class="meta">Angular Core Team</div>
@@ -184,7 +195,7 @@
 					<div class="card rounded-0">
 						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img src="assets/images/speakers/speaker-2.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2">Sarah Doe</h5>
+							<h5 class="card-title mb-2 tng-monitors-font">Sarah Doe</h5>
 							<div class="card-text mb-3">
 								<div class="meta">Developer Advocate</div>
 								<div class="meta">Google</div>
@@ -204,7 +215,7 @@
 					<div class="card rounded-0">
 						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img src="assets/images/speakers/speaker-3.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2">Tim Doe</h5>
+							<h5 class="card-title mb-2 tng-monitors-font">Tim Doe</h5>
 							<div class="card-text mb-3">
 								<div class="meta">Software Developer</div>
 								<div class="meta">React Core Team</div>
@@ -224,7 +235,7 @@
 					<div class="card rounded-0">
 						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img src="assets/images/speakers/speaker-4.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2">Josh Doe</h5>
+							<h5 class="card-title mb-2 tng-monitors-font">Josh Doe</h5>
 							<div class="card-text mb-3">
 								<div class="meta">Founder &amp; CTO</div>
 								<div class="meta">Startup Week</div>
@@ -244,7 +255,7 @@
 					<div class="card rounded-0">
 						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img src="assets/images/speakers/speaker-5.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2">Ling Doe</h5>
+							<h5 class="card-title mb-2 tng-monitors-font">Ling Doe</h5>
 							<div class="card-text mb-3">
 								<div class="meta">Software Architect</div>
 								<div class="meta">GitHub</div>
@@ -264,7 +275,7 @@
 					<div class="card rounded-0">
 						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img src="assets/images/speakers/speaker-6.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2">Andy Doe</h5>
+							<h5 class="card-title mb-2 tng-monitors-font">Andy Doe</h5>
 							<div class="card-text mb-3">
 								<div class="meta">Senior Software Engineer</div>
 								<div class="meta">Twitter</div>
@@ -284,7 +295,7 @@
 					<div class="card rounded-0">
 						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img src="assets/images/speakers/speaker-7.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2">Alice Doe</h5>
+							<h5 class="card-title mb-2 tng-monitors-font">Alice Doe</h5>
 							<div class="card-text mb-3">
 								<div class="meta">Senior Software Developer</div>
 								<div class="meta">Facebook</div>
@@ -304,7 +315,7 @@
 					<div class="card rounded-0">
 						<a href="#modal-speaker-1" data-toggle="modal" data-target="#modal-speaker-1"><img src="assets/images/speakers/speaker-8.jpg" class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2">Thomas Doe</h5>
+							<h5 class="card-title mb-2 tng-monitors-font">Thomas Doe</h5>
 							<div class="card-text mb-3">
 								<div class="meta">Lead Developer</div>
 								<div class="meta">Microsoft</div>
@@ -334,25 +345,25 @@
 	
 	<section id="schedule-section" class="schedule-section section">
 		<div class="container">
-			<h3 class="section-heading text-center mb-5">Schedule</h3>
+			<h3 class="section-heading text-center mb-5 federation-font">Schedule</h3>
 			
 			<!-- Nav tabs -->
 			<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
 				<li class="nav-item mr-2">
 					<a class="nav-link active" id="tab-1" data-toggle="tab" href="#tab-1-content" role="tab" aria-controls="tab-1-content" aria-selected="true">
-						<span class="heading">Day 1 - Workshops</span>
+						<span class="ds9Title-font heading ">Day 1 - Workshops</span>
 						<span class="meta">(Wed, July 29)</span>
 					</a>
 				</li>
 				<li class="nav-item mr-2">
 					<a class="nav-link" id="tab-2" data-toggle="tab" href="#tab-2-content" role="tab" aria-controls="tab-2-content" aria-selected="false">
-						<span class="heading">Day 2 - sessions</span>
+						<span class="ds9Title-font heading">Day 2 - sessions</span>
 						<span class="meta">(Thu, July 30)</span>
 					</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" id="tab-3" data-toggle="tab" href="#tab-3-content" role="tab" aria-controls="tab-3-content" aria-selected="false">
-						<span class="heading">Day 3 - sessions</span>
+						<span class="ds9Title-font heading">Day 3 - sessions</span>
 						<span class="meta">(Fri, July 31)</span>
 					</a>
 				</li>
@@ -401,7 +412,7 @@
 	
 	<section id="tickets-section" class="tickets-section section theme-bg-light">
 		<div class="container">
-			<h3 class="section-heading text-center mb-3">Tickets</h3>
+			<h3 class="section-heading text-center mb-3 federation-font">Tickets</h3>
 			<div class="section-intro single-col-max mx-auto text-center mb-4">You can use 3rd party platforms such as <a class="theme-link" href="https://www.eventbrite.com/" target="_blank">eventbrite</a> and <a class="theme-link" href="https://www.tickettailor.com/" target="_blank">tickettailor</a> to sell your tickets.</div>
 			
 			<div class="row pricing mb-5">
@@ -409,7 +420,7 @@
 					<div class="card rounded-0 border-0">
 						<div class="card-body p-0">
 							<div class="heading  text-center p-3">
-								<h4 class="text-white mb-0">Workshop Ticket</h4>
+								<h4 class="ds9Title-font text-white mb-0">Workshop Ticket</h4>
 							</div>
 							<div class="info p-3">
 								<div class="price-figure text-center mb-3"><span class="currency">$</span><span class="number">100</span></div>
@@ -419,7 +430,7 @@
 							</div><!--//info-->
 						</div><!--//card-body-->
 						<div class="card-footer text-center">
-							<a href="#" class="btn btn-primary disabled">Coming Soon...</a>
+							<a href="#" class="btn btn-primary disabled tng-monitors-font">Coming Soon...</a>
 						</div>
 					</div><!--//card-->
 				</div><!--//col-->
@@ -427,7 +438,7 @@
 					<div class="card card-special rounded-0 border-0">
 						<div class="card-body p-0">
 							<div class="heading  text-center p-3">
-								<h4 class="text-white mb-0">Conference</h4>
+								<h4 class="ds9Title-font text-white mb-0">Conference</h4>
 							</div>
 							<div class="info p-3">
 								<div class="price-figure text-center"><span class="currency">$</span><span class="number">100</span></div>
@@ -437,7 +448,7 @@
 							</div><!--//info-->
 						</div><!--//card-body-->
 						<div class="card-footer text-center">
-							<a href="#" class="btn btn-primary disabled">Coming soon...</a>
+							<a href="#" class="btn btn-primary disabled tng-monitors-font">Coming soon...</a>
 						</div>
 					</div><!--//card-->
 				</div><!--//col-->
@@ -445,7 +456,7 @@
 					<div class="card rounded-0 border-0">
 						<div class="card-body p-0">
 							<div class="heading  text-center p-3">
-								<h4 class="text-white mb-0">All Access Pass</h4>
+								<h4 class="ds9Title-font text-white mb-0">All Access Pass</h4>
 							</div>
 							<div class="info p-3">
 								<div class="price-figure text-center mb-3"><span class="currency">$</span><span class="number">150</span></div>
@@ -455,14 +466,14 @@
 							</div><!--//info-->
 						</div><!--//card-body-->
 						<div class="card-footer text-center">
-							<a href="#" class="btn btn-primary disabled">Coming Soon...</a>
+							<a href="#" class="btn btn-primary disabled tng-monitors-font">Coming Soon...</a>
 						</div>
 					</div><!--//card-->
 				</div><!--//col-->
 			</div><!--//pricing-->
 			
 			<div class="offers text-center bg-white p-4 p-lg-5">
-				<h4 class="mb-3">What's included?</h4>
+				<h4 class="mb-3 federation-font">What's included?</h4>
 				<ul class="offers-list list-unstyled d-inline-block mx-auto text-left">
 					<li><span class="icon-holder mr-2"><i class="fas fa-user-tie"></i></span>60+ talks from industry-leading speakers</li>
 					<li><span class="icon-holder mr-2"><i class="fas fa-people-carry"></i></span>Access to 10+ workshops</li>
