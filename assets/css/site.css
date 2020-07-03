@@ -76,3 +76,94 @@
     max-width: 100px;
 
 }
+
+
+.panel-container {
+    width: 400px;
+    height: 640px;
+    position: relative;
+    background-color: #000a14;
+    border: 6px solid #124548;
+  }
+  .panel-container .panel-accent {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+  .panel-container .panel-accent svg {
+    height: 580px;
+    position: absolute;
+    fill: #124548;
+  }
+  .panel-container .floor-container {
+    position: absolute;
+    left: 18px;
+    top: 18px;
+  }
+  .panel-container .floor-container .floor {
+    position: relative;
+    margin-bottom: 6px;
+    display: block;
+    height: 70px;
+    width: 364px;
+    color: #29777b;
+    transition: color 0.5s;
+  }
+  .panel-container .floor-container .floor .text-pane {
+    width: 269px;
+    height: 44px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 12px 18px 6px 18px;
+    text-align: right;
+    font-weight: bold;
+  }
+  .panel-container .floor-container .floor .text-pane label {
+    display: block;
+    width: 100%;
+  }
+  .panel-container .floor-container .floor .text-pane label.floor-number {
+    font-size: 18px;
+  }
+  .panel-container .floor-container .floor .text-pane label.floor-description {
+    margin-top: 2px;
+    font-size: 8px;
+  }
+  .panel-container .floor-container .floor svg {
+    position: absolute;
+    width: 100%;
+  }
+  .panel-container .floor-container .floor svg .outer {
+    fill: #124548;
+    stroke: #29777b;
+    stroke-width: 2px;
+    transition: fill 0.5s;
+  }
+  .panel-container .floor-container .floor svg .inner {
+    fill: #082430;
+    transition: fill 0.5s;
+  }
+  .panel-container .floor-container .floor svg .panel {
+    fill: #082430;
+    stroke: #29777b;
+    stroke-width: 2px;
+    transition: fill 0.5s;
+  }
+  .panel-container .floor-container .floor:hover {
+    color: black;
+    transition: color 0.5s;
+  }
+  .panel-container .floor-container .floor:hover .inner, .panel-container .floor-container .floor:hover .outer {
+    fill: #5bc3c8;
+    transition: fill 0.5s;
+  }
+  .panel-container .floor-container .floor:hover .panel {
+    fill: #29777b;
+    transition: fill 0.5s;
+  }
+
+  .color1bright {
+    background-color: #5bc3c8;
+  }
+  
